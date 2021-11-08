@@ -6,7 +6,7 @@
 /*   By: lrocca <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/07 22:01:09 by lrocca            #+#    #+#             */
-/*   Updated: 2021/11/07 22:17:02 by lrocca           ###   ########.fr       */
+/*   Updated: 2021/11/08 17:09:30 by lrocca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 Zombie::Zombie(std::string name): _name(name) {}
 
 Zombie::~Zombie() {
-	std::cout << _name << " just died!" << std::endl;
+	std::cout << "<" << _name << "> Going back to my grave!" << std::endl;
 }
 
 void	Zombie::announce(void) const {
