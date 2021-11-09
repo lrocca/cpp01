@@ -6,13 +6,15 @@
 /*   By: lrocca <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/07 22:01:09 by lrocca            #+#    #+#             */
-/*   Updated: 2021/11/08 17:09:30 by lrocca           ###   ########.fr       */
+/*   Updated: 2021/11/09 17:03:48 by lrocca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 
 #include "Zombie.hpp"
+
+Zombie::Zombie(): _name("zombie") {}
 
 Zombie::Zombie(std::string name): _name(name) {}
 

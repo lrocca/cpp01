@@ -6,7 +6,7 @@
 /*   By: lrocca <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/07 21:59:56 by lrocca            #+#    #+#             */
-/*   Updated: 2021/11/07 22:15:04 by lrocca           ###   ########.fr       */
+/*   Updated: 2021/11/09 17:03:32 by lrocca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@ class Zombie {
 	private:
 		std::string	_name;
 	public:
+		Zombie();
 		Zombie(std::string name);
 		~Zombie();
 		void	announce(void) const;
