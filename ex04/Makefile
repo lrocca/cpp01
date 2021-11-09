@@ -6,7 +6,7 @@
 #    By: lrocca <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/08 18:10:16 by lrocca            #+#    #+#              #
-#    Updated: 2021/11/09 17:27:30 by lrocca           ###   ########.fr        #
+#    Updated: 2021/11/09 17:54:53 by lrocca           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,3 +32,4 @@ re: fclean all
 
 test: $(NAME)
 	./$^ $(FILES) include ciao
+	diff $(FILES) $(addsuffix .replace, $(FILES))
