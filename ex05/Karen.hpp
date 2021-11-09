@@ -6,7 +6,7 @@
 /*   By: lrocca <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/08 18:50:01 by lrocca            #+#    #+#             */
-/*   Updated: 2021/11/09 15:53:31 by                  ###   ########.fr       */
+/*   Updated: 2021/11/09 16:34:09 by lrocca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,11 +17,12 @@
 
 class Karen {
 	private:
+		void	(Karen::*_levels[4])();
+
 		void	debug(void);
 		void	info(void);
 		void	warning(void);
 		void	error(void);
-		void	(Karen::*_levels[4])();
 
 	public:
 		Karen();
