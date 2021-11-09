@@ -13,7 +13,7 @@
 CC		=	clang++
 CFLAGS	=	-Wall -Wextra -Werror
 
-NAME	=	violence
+NAME	=	karen
 FILES	=	main.cpp Karen.cpp
 
 OBJ		=	$(FILES:.cpp=.o)
