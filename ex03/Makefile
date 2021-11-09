@@ -6,12 +6,12 @@
 #    By: lrocca <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/08 17:23:04 by lrocca            #+#    #+#              #
-#    Updated: 2021/11/08 17:24:49 by lrocca           ###   ########.fr        #
+#    Updated: 2021/11/09 17:27:19 by lrocca           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC		=	clang++
-CFLAGS	=	-Wall -Wextra -Werror
+CFLAGS	=	-Wall -Wextra -Werror -std=c++98
 
 NAME	=	violence
 FILES	=	main.cpp Weapon.cpp HumanA.cpp HumanB.cpp

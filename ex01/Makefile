@@ -6,12 +6,12 @@
 #    By: lrocca <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/08 17:00:42 by lrocca            #+#    #+#              #
-#    Updated: 2021/11/08 17:18:46 by lrocca           ###   ########.fr        #
+#    Updated: 2021/11/09 17:27:01 by lrocca           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC		=	clang++
-CFLAGS	=	-Wall -Wextra -Werror
+CFLAGS	=	-Wall -Wextra -Werror -std=c++98
 
 NAME	=	zombies
 FILES	=	main.cpp Zombie.cpp ZombieHorde.cpp

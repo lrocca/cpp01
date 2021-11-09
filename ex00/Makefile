@@ -6,12 +6,12 @@
 #    By: lrocca <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/07 21:57:34 by lrocca            #+#    #+#              #
-#    Updated: 2021/11/07 22:07:48 by lrocca           ###   ########.fr        #
+#    Updated: 2021/11/09 17:26:56 by lrocca           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC		=	clang++
-CFLAGS	=	-Wall -Wextra -Werror
+CFLAGS	=	-Wall -Wextra -Werror -std=c++98
 
 NAME	=	zombies
 FILES	=	main.cpp Zombie.cpp newZombie.cpp randomChump.cpp

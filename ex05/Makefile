@@ -6,12 +6,12 @@
 #    By: lrocca <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/08 18:49:30 by lrocca            #+#    #+#              #
-#    Updated: 2021/11/08 19:42:02 by lrocca           ###   ########.fr        #
+#    Updated: 2021/11/09 17:27:35 by lrocca           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC		=	clang++
-CFLAGS	=	-Wall -Wextra -Werror
+CFLAGS	=	-Wall -Wextra -Werror -std=c++98
 
 NAME	=	karen
 FILES	=	main.cpp Karen.cpp
